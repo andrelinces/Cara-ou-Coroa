@@ -25,7 +25,7 @@
                                         <rect key="frame" x="25" y="174" width="271" height="74"/>
                                         <state key="normal" image="botao_jogar"/>
                                         <connections>
-                                            <segue destination="Hs6-sx-wih" kind="show" id="gHq-2s-d5m"/>
+                                            <segue destination="Hs6-sx-wih" kind="show" identifier="jogarMoeda" id="gHq-2s-d5m"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="506" y="76"/>
         </scene>
-        <!--View Controller-->
+        <!--Detalhes View Controller-->
         <scene sceneID="P9s-KU-ZaT">
             <objects>
-                <viewController id="Hs6-sx-wih" sceneMemberID="viewController">
+                <viewController id="Hs6-sx-wih" customClass="detalhesViewController" customModule="Cara_ou_Coroa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h58-HL-6Iq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,6 +64,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="BrT-xi-4Vv"/>
+                    <connections>
+                        <outlet property="moedaImagem" destination="0g5-oH-kAA" id="qvQ-Fn-loZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lAS-Un-iHA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

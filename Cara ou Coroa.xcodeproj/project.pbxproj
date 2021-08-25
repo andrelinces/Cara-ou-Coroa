@@ -16,6 +16,7 @@
 		D3EA960C26D5A0BC008094C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EA960A26D5A0BC008094C2 /* LaunchScreen.storyboard */; };
 		D3EA961726D5A0BC008094C2 /* Cara_ou_CoroaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EA961626D5A0BC008094C2 /* Cara_ou_CoroaTests.swift */; };
 		D3EA962226D5A0BC008094C2 /* Cara_ou_CoroaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EA962126D5A0BC008094C2 /* Cara_ou_CoroaUITests.swift */; };
+		D3EA963026D5AA2C008094C2 /* detalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EA962F26D5AA2C008094C2 /* detalhesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D3EA961D26D5A0BC008094C2 /* Cara ou CoroaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cara ou CoroaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EA962126D5A0BC008094C2 /* Cara_ou_CoroaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cara_ou_CoroaUITests.swift; sourceTree = "<group>"; };
 		D3EA962326D5A0BC008094C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EA962F26D5AA2C008094C2 /* detalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detalhesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				D3EA95FC26D5A0BB008094C2 /* AppDelegate.swift */,
 				D3EA95FE26D5A0BB008094C2 /* SceneDelegate.swift */,
+				D3EA962F26D5AA2C008094C2 /* detalhesViewController.swift */,
 				D3EA960026D5A0BB008094C2 /* ViewController.swift */,
 				D3EA960226D5A0BB008094C2 /* Main.storyboard */,
 				D3EA960826D5A0BC008094C2 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3EA960126D5A0BB008094C2 /* ViewController.swift in Sources */,
+				D3EA963026D5AA2C008094C2 /* detalhesViewController.swift in Sources */,
 				D3EA95FD26D5A0BB008094C2 /* AppDelegate.swift in Sources */,
 				D3EA95FF26D5A0BB008094C2 /* SceneDelegate.swift in Sources */,
 				D3EA960726D5A0BB008094C2 /* Cara_ou_Coroa.xcdatamodeld in Sources */,
